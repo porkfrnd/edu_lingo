@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card fade-up" style="text-align:center; max-width:500px; margin:2rem auto;">
+<h2>Quiz Complete!</h2>
+<p style="font-size:2rem; margin:1rem 0;">{{ correct }}/{{ total }} correct • {{ score }} XP</p>
+{% if perfect %}<h3 style="color:var(--green);">🎉 Perfect Round!</h3>
+<div class="confetti" id="confetti"></div>{% else %}<p>Keep practicing!</p>{% endif %}
+<a href="{{ url_for('quiz_start') }}" class="btn btn-green">Play Again</a>
+<a href="{{ url_for('dashboard') }}" class="btn btn-blue">Dashboard</a>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+{% if perfect %}
+(function(){
+  const c = document.getElementById('confetti');
+  for(let i=0;i<50;i++){
+    const p=document.createElement('div');
+    p.className='confetti-piece';
+    p.style.left=Math.random()*100+'%';
+    p.style.background=['#58CC02','#1cb0f6','#ff9600','#FF4B4B'][Math.floor(Math.random()*4)];
+    p.style.animationDuration=(0.5+Math.random())+'s';
+    p.style.top=Math.random()*50+'%';
+    c.appendChild(p);
+  }
+})();
+{% endif %}
+</script>
+{% endblock %}

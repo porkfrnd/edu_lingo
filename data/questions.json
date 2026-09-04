@@ -1,0 +1,3024 @@
+[
+  {
+    "id": 1,
+    "text": "Which alcohol reacts fastest with Lucas reagent at room temperature?",
+    "options": [
+      "Primary alcohol",
+      "Secondary alcohol",
+      "Tertiary alcohol",
+      "Methanol"
+    ],
+    "correct_answer": "Tertiary alcohol",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 2,
+    "text": "What happens when ethanol is heated with concentrated H2SO4 at 170°C?",
+    "options": [
+      "Forms ethane",
+      "Forms ethene",
+      "Forms ethanol oxide",
+      "No reaction"
+    ],
+    "correct_answer": "Forms ethene",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 3,
+    "text": "The oxidation of primary alcohol first gives:",
+    "options": [
+      "Aldehyde",
+      "Ketone",
+      "Carboxylic acid",
+      "Ether"
+    ],
+    "correct_answer": "Aldehyde",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 4,
+    "text": "Which reagent is used to distinguish primary, secondary, and tertiary alcohols?",
+    "options": [
+      "NaOH",
+      "Lucas reagent",
+      "AgNO3",
+      "Br2 water"
+    ],
+    "correct_answer": "Lucas reagent",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "text": "T/F: Tertiary alcohols cannot be oxidized under normal conditions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 6,
+    "text": "Dehydration of 2-propanol gives mainly:",
+    "options": [
+      "Propene",
+      "2-Propyl ether",
+      "Propanal",
+      "2-Propanol stays"
+    ],
+    "correct_answer": "Propene",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 7,
+    "text": "Which alcohol is most acidic?",
+    "options": [
+      "Methanol",
+      "Ethanol",
+      "Phenol",
+      "tert-Butanol"
+    ],
+    "correct_answer": "Phenol",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "text": "The reaction of ethanol with sodium produces:",
+    "options": [
+      "Ethanol sodium",
+      "Sodium ethoxide + H2",
+      "Ethyl sodium",
+      "No reaction"
+    ],
+    "correct_answer": "Sodium ethoxide + H2",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 9,
+    "text": "Fill in the blank: The dehydration of alcohols follows _____ rule for Zaitsev product.",
+    "options": [
+      "Zaitsev",
+      "Markovnikov",
+      "Hückel",
+      "Saytzeff"
+    ],
+    "correct_answer": "Zaitsev",
+    "question_type": "fib",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 10,
+    "text": "T/F: Allylic and benzylic alcohols oxidize easily because the intermediate carbocation is resonance-stabilized.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 11,
+    "text": "Which alcohol gives a positive iodoform test?",
+    "options": [
+      "1-propanol",
+      "2-butanol",
+      "2-methyl-2-propanol",
+      "2-propanol"
+    ],
+    "correct_answer": "2-propanol",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 12,
+    "text": "The Lucas test distinguishes alcohols based on:",
+    "options": [
+      "Rate of formation of alkyl chloride",
+      "Color change",
+      "Gas evolution",
+      "pH change"
+    ],
+    "correct_answer": "Rate of formation of alkyl chloride",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "text": "What product forms when ethylene glycol reacts with excess acetic anhydride?",
+    "options": [
+      "Diacetate ester",
+      "Ethanol",
+      "Ethylene oxide",
+      "Acetic acid"
+    ],
+    "correct_answer": "Diacetate ester",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 14,
+    "text": "Ethanol on oxidation with acidified K2Cr2O7 gives:",
+    "options": [
+      "Ethanal then ethanoic acid",
+      "Ethanol stays",
+      "Ethyl acetate",
+      "Ethane"
+    ],
+    "correct_answer": "Ethanal then ethanoic acid",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "text": "Which of the following is a secondary alcohol?",
+    "options": [
+      "CH3CH2CH2OH",
+      "CH3CH(OH)CH3",
+      "(CH3)3COH",
+      "CH3OH"
+    ],
+    "correct_answer": "CH3CH(OH)CH3",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "text": "The rate constant k doubles when temperature increases by 10°C. What is the approximate activation energy?",
+    "options": [
+      "Low Ea",
+      "High Ea",
+      "Ea independent",
+      "Ea = 0"
+    ],
+    "correct_answer": "Low Ea",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 3
+  },
+  {
+    "id": 17,
+    "text": "For a first-order reaction, the half-life is:",
+    "options": [
+      "Dependent on initial concentration",
+      "Independent of initial concentration",
+      "Doubled when concentration doubles",
+      "Zero"
+    ],
+    "correct_answer": "Independent of initial concentration",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 18,
+    "text": "The Arrhenius equation is:",
+    "options": [
+      "k = Ae^(-Ea/RT)",
+      "k = A + Ea/RT",
+      "k = Ae^(Ea/RT)",
+      "k = A/Ea"
+    ],
+    "correct_answer": "k = Ae^(-Ea/RT)",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 19,
+    "text": "A catalyst affects a reaction by:",
+    "options": [
+      "Increasing Ea",
+      "Lowering Ea",
+      "Changing equilibrium",
+      "Consumed in reaction"
+    ],
+    "correct_answer": "Lowering Ea",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 1
+  },
+  {
+    "id": 20,
+    "text": "T/F: The rate of a zero-order reaction is independent of reactant concentration.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Chemical Kinetics",
+    "difficulty": 1
+  },
+  {
+    "id": 21,
+    "text": "If the reaction rate doubles when [A] doubles, the reaction is _____ order in A.",
+    "options": [
+      "First",
+      "Second",
+      "Zero",
+      "Half"
+    ],
+    "correct_answer": "First",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 22,
+    "text": "The unit of rate constant for a second-order reaction is:",
+    "options": [
+      "M/s",
+      "M^-1 s^-1",
+      "s^-1",
+      "M^2 s^-1"
+    ],
+    "correct_answer": "M^-1 s^-1",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 23,
+    "text": "Which factor does NOT affect the rate of a chemical reaction?",
+    "options": [
+      "Temperature",
+      "Catalyst",
+      "Pressure (for liquids)",
+      "Concentration"
+    ],
+    "correct_answer": "Pressure (for liquids)",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 24,
+    "text": "T/F: The rate-determining step is the slowest step in a multi-step mechanism.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Chemical Kinetics",
+    "difficulty": 1
+  },
+  {
+    "id": 25,
+    "text": "The pre-exponential factor A in Arrhenius equation represents:",
+    "options": [
+      "Frequency of collisions",
+      "Activation energy",
+      "Temperature",
+      "Concentration"
+    ],
+    "correct_answer": "Frequency of collisions",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 3
+  },
+  {
+    "id": 26,
+    "text": "For a parallel reaction, the product distribution depends on:",
+    "options": [
+      "Relative rates",
+      "Temperature only",
+      "Pressure only",
+      "Catalyst only"
+    ],
+    "correct_answer": "Relative rates",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 3
+  },
+  {
+    "id": 27,
+    "text": "The collision theory states that molecules must:",
+    "options": [
+      "Have sufficient energy and proper orientation",
+      "Have same mass",
+      "Be charged",
+      "Be identical"
+    ],
+    "correct_answer": "Have sufficient energy and proper orientation",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 28,
+    "text": "The rate of a reaction increases with temperature because:",
+    "options": [
+      "More molecules have energy ≥ Ea",
+      "Concentration increases",
+      "Volume decreases",
+      "Catalyst forms"
+    ],
+    "correct_answer": "More molecules have energy ≥ Ea",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 29,
+    "text": "The half-life of a second-order reaction depends on:",
+    "options": [
+      "Initial concentration",
+      "Temperature only",
+      "Catalyst only",
+      "Volume"
+    ],
+    "correct_answer": "Initial concentration",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 3
+  },
+  {
+    "id": 30,
+    "text": "T/F: The rate law can be determined solely from the stoichiometric equation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "False",
+    "question_type": "tf",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 31,
+    "text": "In a galvanic cell, oxidation occurs at the:",
+    "options": [
+      "Anode",
+      "Cathode",
+      "Salt bridge",
+      "Electrolyte"
+    ],
+    "correct_answer": "Anode",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 32,
+    "text": "The Nernst equation relates cell potential to:",
+    "options": [
+      "Concentration",
+      "Temperature",
+      "Both A and B",
+      "Neither"
+    ],
+    "correct_answer": "Both A and B",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 33,
+    "text": "Standard hydrogen electrode has a potential of:",
+    "options": [
+      "0 V",
+      "1 V",
+      "-1 V",
+      "0.5 V"
+    ],
+    "correct_answer": "0 V",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 34,
+    "text": "Faraday's first law states that the amount of substance deposited is proportional to:",
+    "options": [
+      "Charge passed",
+      "Time only",
+      "Voltage only",
+      "Current only"
+    ],
+    "correct_answer": "Charge passed",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 35,
+    "text": "T/F: In electrolysis, the anode is positive.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 36,
+    "text": "The Gibbs free energy change for a spontaneous cell reaction is:",
+    "options": [
+      "Negative",
+      "Positive",
+      "Zero",
+      "Undefined"
+    ],
+    "correct_answer": "Negative",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 37,
+    "text": "A salt bridge in an electrochemical cell:",
+    "options": [
+      "Maintains charge neutrality",
+      "Provides electrons",
+      "Stores current",
+      "None"
+    ],
+    "correct_answer": "Maintains charge neutrality",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 38,
+    "text": "The standard cell potential E°cell is calculated as:",
+    "options": [
+      "E°cathode - E°anode",
+      "E°anode - E°cathode",
+      "E°cathode + E°anode",
+      "Neither"
+    ],
+    "correct_answer": "E°cathode - E°anode",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 39,
+    "text": "Which metal is most easily oxidized?",
+    "options": [
+      "Li",
+      "Cu",
+      "Ag",
+      "Au"
+    ],
+    "correct_answer": "Li",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 40,
+    "text": "During electrolysis of molten NaCl, products at anode and cathode are:",
+    "options": [
+      "Cl2 at anode, Na at cathode",
+      "Na at anode, Cl2 at cathode",
+      "H2 and O2",
+      "NaCl stays"
+    ],
+    "correct_answer": "Cl2 at anode, Na at cathode",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 41,
+    "text": "The cell potential decreases as reaction proceeds because:",
+    "options": [
+      "Reactant concentrations change",
+      "Temperature drops",
+      "Electrodes dissolve",
+      "Salt bridge breaks"
+    ],
+    "correct_answer": "Reactant concentrations change",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 42,
+    "text": "T/F: Corrosion of iron is an example of electrochemical cell.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 43,
+    "text": "The EMF of a cell at equilibrium is:",
+    "options": [
+      "Zero",
+      "Maximum",
+      "1 V",
+      "Negative"
+    ],
+    "correct_answer": "Zero",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 44,
+    "text": "Fill in: The law that relates cell potential to Gibbs energy is ΔG = _____.",
+    "options": [
+      "-nFE",
+      "nFE",
+      "-RTlnK",
+      "Both A and C"
+    ],
+    "correct_answer": "-nFE",
+    "question_type": "fib",
+    "topic": "Electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 45,
+    "text": "Which is a reversible cell?",
+    "options": [
+      "Daniel cell",
+      "Lead-acid battery",
+      "Fuel cell",
+      "Both A and C"
+    ],
+    "correct_answer": "Daniel cell",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 46,
+    "text": "Diethyl ether is prepared by:",
+    "options": [
+      "Dehydration of ethanol",
+      "Reaction of ethanol with Na",
+      "Williamson synthesis",
+      "Both A and C"
+    ],
+    "correct_answer": "Both A and C",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 47,
+    "text": "What is the main product of ethanol with H2SO4 at 140°C?",
+    "options": [
+      "Diethyl ether",
+      "Ethene",
+      "Ethanol oxide",
+      "Ethyl hydrogen sulfate"
+    ],
+    "correct_answer": "Diethyl ether",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 48,
+    "text": "Ether cleavage with HI gives:",
+    "options": [
+      "Alcohol and alkyl iodide",
+      "Ketone",
+      "Aldehyde",
+      "No reaction"
+    ],
+    "correct_answer": "Alcohol and alkyl iodide",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 49,
+    "text": "T/F: Ethers are relatively unreactive due to the stability of the C–O bond.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Ether",
+    "difficulty": 1
+  },
+  {
+    "id": 50,
+    "text": "Epoxide ring opening with water in acid gives:",
+    "options": [
+      "1,2-diol",
+      "Ether",
+      "Aldehyde",
+      "Ketone"
+    ],
+    "correct_answer": "1,2-diol",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 51,
+    "text": "Which ether is commonly used as a solvent in Grignard reactions?",
+    "options": [
+      "Diethyl ether",
+      "Water",
+      "Acetone",
+      "Ethanol"
+    ],
+    "correct_answer": "Diethyl ether",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 1
+  },
+  {
+    "id": 52,
+    "text": "Peroxide formation in ethers occurs because:",
+    "options": [
+      "Autoxidation",
+      "Hydrolysis",
+      "Dehydration",
+      "Polymerization"
+    ],
+    "correct_answer": "Autoxidation",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 3
+  },
+  {
+    "id": 53,
+    "text": "T/F: THF is a cyclic ether used as a solvent.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Ether",
+    "difficulty": 1
+  },
+  {
+    "id": 54,
+    "text": "Which reagent cleaves an epoxide under basic conditions?",
+    "options": [
+      "NaOH/H2O",
+      "HCl",
+      "H2SO4",
+      "NaCl"
+    ],
+    "correct_answer": "NaOH/H2O",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 55,
+    "text": "The Williamson ether synthesis involves:",
+    "options": [
+      "SN2 reaction",
+      "SN1 reaction",
+      "E1 elimination",
+      "E2 elimination"
+    ],
+    "correct_answer": "SN2 reaction",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 56,
+    "text": "Fill in: Ethers on treatment with excess HI give _____ and alcohol.",
+    "options": [
+      "Alkyl iodide",
+      "Alkene",
+      "Alkyne",
+      "Aldehyde"
+    ],
+    "correct_answer": "Alkyl iodide",
+    "question_type": "fib",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 57,
+    "text": "T/F: Diethyl ether has a lower boiling point than ethanol due to inability to hydrogen bond as donor.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 58,
+    "text": "Which halide undergoes SN2 fastest?",
+    "options": [
+      "CH3Cl",
+      "CH3CH2Cl",
+      "(CH3)3CCl",
+      "CH2=CHCl"
+    ],
+    "correct_answer": "CH3Cl",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 59,
+    "text": "SN2 reactions show:",
+    "options": [
+      "Inversion of configuration",
+      "Retention of configuration",
+      "Racemization",
+      "No stereochemistry"
+    ],
+    "correct_answer": "Inversion of configuration",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 60,
+    "text": "T/F: Tertiary alkyl halides prefer SN1 over SN2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Haloalkanes",
+    "difficulty": 1
+  },
+  {
+    "id": 61,
+    "text": "Which halide undergoes E2 elimination fastest?",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "All equal"
+    ],
+    "correct_answer": "Tertiary",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 62,
+    "text": "Zaitsev's rule predicts the formation of:",
+    "options": [
+      "More substituted alkene",
+      "Less substituted alkene",
+      "Terminal alkyne",
+      "Cyclic alkene"
+    ],
+    "correct_answer": "More substituted alkene",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 63,
+    "text": "The rate of SN1 depends on:",
+    "options": [
+      "Concentration of substrate only",
+      "Concentration of nucleophile",
+      "Both",
+      "Neither"
+    ],
+    "correct_answer": "Concentration of substrate only",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 64,
+    "text": "T/F: Allylic halides undergo SN2 faster than primary halides.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 65,
+    "text": "Which reagent can convert an alkyl halide to a Grignard reagent?",
+    "options": [
+      "Mg in dry ether",
+      "NaOH",
+      "HCl",
+      "KMnO4"
+    ],
+    "correct_answer": "Mg in dry ether",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 1
+  },
+  {
+    "id": 66,
+    "text": "Fill in: The conversion of an alkyl halide to an alkene using strong base is called _____ elimination.",
+    "options": [
+      "E2",
+      "SN2",
+      "SN1",
+      "E1"
+    ],
+    "correct_answer": "E2",
+    "question_type": "fib",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 67,
+    "text": "The order of reactivity for SN2 is:",
+    "options": [
+      "CH3X > 1° > 2° > 3°",
+      "3° > 2° > 1° > CH3X",
+      "All equal",
+      "1° > 2° > 3°"
+    ],
+    "correct_answer": "CH3X > 1° > 2° > 3°",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 68,
+    "text": "Which of the following has the highest boiling point?",
+    "options": [
+      "1-chloropropane",
+      "2-chloropropane",
+      "1-chlorobutane",
+      "2-chlorobutane"
+    ],
+    "correct_answer": "1-chlorobutane",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 3
+  },
+  {
+    "id": 69,
+    "text": "T/F: SN2 is favored by polar aprotic solvents.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 70,
+    "text": "The product of chloroethane with KCN is:",
+    "options": [
+      "Propanenitrile",
+      "Butanenitrile",
+      "Ethane",
+      "No reaction"
+    ],
+    "correct_answer": "Propanenitrile",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 71,
+    "text": "Chlorobenzene undergoes nucleophilic aromatic substitution when:",
+    "options": [
+      "Strong electron-withdrawing groups present",
+      "Any halogen present",
+      "Only with NaOH",
+      "With heat only"
+    ],
+    "correct_answer": "Strong electron-withdrawing groups present",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 72,
+    "text": "The benzyne mechanism involves:",
+    "options": [
+      "Elimination-addition",
+      "SN1",
+      "SN2",
+      "Free radical"
+    ],
+    "correct_answer": "Elimination-addition",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 73,
+    "text": "T/F: Halogens are ortho-para directors but deactivators in electrophilic aromatic substitution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 74,
+    "text": "Nitration of chlorobenzene gives mainly:",
+    "options": [
+      "Ortho and para nitrochlorobenzene",
+      "Meta",
+      "Only ortho",
+      "Only para"
+    ],
+    "correct_answer": "Ortho and para nitrochlorobenzene",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 75,
+    "text": "Which halide undergoes SNAr fastest?",
+    "options": [
+      "Chlorobenzene",
+      "2,4-dinitrochlorobenzene",
+      "Bromobenzene",
+      "Iodobenzene"
+    ],
+    "correct_answer": "2,4-dinitrochlorobenzene",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 76,
+    "text": "T/F: Aryl halides do not undergo SN2 reactions under normal conditions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 77,
+    "text": "The directivity of halogen substituent is:",
+    "options": [
+      "Ortho-para directing",
+      "Meta directing",
+      "No directing",
+      "Para only"
+    ],
+    "correct_answer": "Ortho-para directing",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 78,
+    "text": "Phenylmagnesium bromide is best prepared from:",
+    "options": [
+      "Bromobenzene + Mg in dry ether/THF",
+      "Chlorobenzene + aq. NaOH",
+      "Iodobenzene + water",
+      "Fluorobenzene + Mg in water"
+    ],
+    "correct_answer": "Bromobenzene + Mg in dry ether/THF",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 79,
+    "text": "Fill in: Nucleophilic aromatic substitution requires a(n) _____ group ortho/para to the leaving group.",
+    "options": [
+      "Electron-withdrawing",
+      "Electron-donating",
+      "Alkyl",
+      "None"
+    ],
+    "correct_answer": "Electron-withdrawing",
+    "question_type": "fib",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 80,
+    "text": "T/F: Aryl halides are less reactive than alkyl halides toward nucleophilic substitution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 81,
+    "text": "In alpha decay, the mass number:",
+    "options": [
+      "Decreases by 4",
+      "Increases by 4",
+      "Decreases by 2",
+      "Stays the same"
+    ],
+    "correct_answer": "Decreases by 4",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 82,
+    "text": "Beta decay involves emission of:",
+    "options": [
+      "Electron",
+      "Helium nucleus",
+      "Gamma ray",
+      "Neutron"
+    ],
+    "correct_answer": "Electron",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 83,
+    "text": "Carbon-14 dating relies on:",
+    "options": [
+      "Half-life of C-14",
+      "Chemical reactivity",
+      "Mass number",
+      "Atomic number"
+    ],
+    "correct_answer": "Half-life of C-14",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 84,
+    "text": "T/F: Nuclear fission is used in nuclear power plants.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 85,
+    "text": "The SI unit of radioactivity is:",
+    "options": [
+      "Becquerel",
+      "Curie",
+      "Rutherford",
+      "Gray"
+    ],
+    "correct_answer": "Becquerel",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 86,
+    "text": "In nuclear fusion,:",
+    "options": [
+      "Light nuclei combine",
+      "Heavy nuclei split",
+      "Electrons combine",
+      "Neutrons split"
+    ],
+    "correct_answer": "Light nuclei combine",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 87,
+    "text": "Which equation correctly represents alpha decay of U-238?",
+    "options": [
+      "²³⁸U → ²³⁴Th + ⁴He",
+      "²³⁸U → ²³⁶Th + ²He",
+      "²³⁸U → ²³⁴Pa + ⁴He",
+      "²³⁸U → ²³⁹Th + ⁰e"
+    ],
+    "correct_answer": "²³⁸U → ²³⁴Th + ⁴He",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 88,
+    "text": "Fill in: The half-life formula for first-order decay is t₁/₂ = _____ / λ.",
+    "options": [
+      "ln(2)",
+      "ln(10)",
+      "2",
+      "e"
+    ],
+    "correct_answer": "ln(2)",
+    "question_type": "fib",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 89,
+    "text": "T/F: Gamma rays have no mass and no charge.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 90,
+    "text": "Nuclear power plants use _____ to control chain reactions.",
+    "options": [
+      "Control rods",
+      "Moderators",
+      "Both A and B",
+      "Neither"
+    ],
+    "correct_answer": "Both A and B",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 91,
+    "text": "Which isotope is used in medical imaging (PET)?",
+    "options": [
+      "Fluorine-18",
+      "Carbon-14",
+      "Uranium-235",
+      "Thorium-232"
+    ],
+    "correct_answer": "Fluorine-18",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 92,
+    "text": "T/F: Cobalt-60 is used in radiotherapy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 93,
+    "text": "The energy released in nuclear reactions comes from:",
+    "options": [
+      "Mass defect (E=mc²)",
+      "Chemical bonds",
+      "Electron transitions",
+      "Photons only"
+    ],
+    "correct_answer": "Mass defect (E=mc²)",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 94,
+    "text": "Fill in: Radiocarbon dating was developed by _____ in 1949.",
+    "options": [
+      "Willard Libby",
+      "Marie Curie",
+      "Henri Becquerel",
+      "Ernest Rutherford"
+    ],
+    "correct_answer": "Willard Libby",
+    "question_type": "fib",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 95,
+    "text": "T/F: Nuclear fission produces radioactive waste.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 96,
+    "text": "Phenol is more acidic than ethanol because:",
+    "options": [
+      "The phenoxide ion is resonance-stabilized",
+      "It has an –OH group",
+      "It is an aromatic compound",
+      "It has a lower molecular weight"
+    ],
+    "correct_answer": "The phenoxide ion is resonance-stabilized",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 97,
+    "text": "The reaction of phenol with Br2 water gives:",
+    "options": [
+      "2,4,6-tribromophenol",
+      "Monobromophenol",
+      "No reaction",
+      "Phenyl bromide"
+    ],
+    "correct_answer": "2,4,6-tribromophenol",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 98,
+    "text": "T/F: Phenol gives a purple color with FeCl3.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Phenol",
+    "difficulty": 1
+  },
+  {
+    "id": 99,
+    "text": "The pKa of phenol is approximately:",
+    "options": [
+      "10",
+      "4",
+      "7",
+      "14"
+    ],
+    "correct_answer": "10",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 100,
+    "text": "Nitration of phenol gives:",
+    "options": [
+      "Ortho and para nitrophenol",
+      "Only meta",
+      "Only ortho",
+      "No reaction"
+    ],
+    "correct_answer": "Ortho and para nitrophenol",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 101,
+    "text": "Phenol undergoes electrophilic substitution because:",
+    "options": [
+      "The –OH group donates electrons into the ring",
+      "It is a withdrawing group",
+      "It is a meta director",
+      "It deactivates the ring"
+    ],
+    "correct_answer": "The –OH group donates electrons into the ring",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 102,
+    "text": "T/F: Phenol can be prepared from cumene hydroperoxide process.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 103,
+    "text": "The Kolbe-Schmitt reaction produces:",
+    "options": [
+      "Salicylic acid",
+      "Acetophenone",
+      "Benzoic acid",
+      "Aniline"
+    ],
+    "correct_answer": "Salicylic acid",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 3
+  },
+  {
+    "id": 104,
+    "text": "Fill in: Phenol undergoes _____ bromination with Br2 without a catalyst.",
+    "options": [
+      "No Lewis acid needed",
+      "Lewis acid",
+      "High temperature",
+      "UV light"
+    ],
+    "correct_answer": "No Lewis acid needed",
+    "question_type": "fib",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 105,
+    "text": "T/F: Phenol is more reactive than benzene toward electrophilic substitution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 106,
+    "text": "Which of the following is an ortho/para director?",
+    "options": [
+      "–OH",
+      "–NO2",
+      "–CN",
+      "–COOH"
+    ],
+    "correct_answer": "–OH",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 107,
+    "text": "The Reimer-Tiemann reaction on phenol gives:",
+    "options": [
+      "Salicylaldehyde",
+      "Benzaldehyde",
+      "Anisole",
+      "Catechol"
+    ],
+    "correct_answer": "Salicylaldehyde",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 3
+  },
+  {
+    "id": 108,
+    "text": "Which is not a transition metal?",
+    "options": [
+      "Zinc",
+      "Iron",
+      "Copper",
+      "Chromium"
+    ],
+    "correct_answer": "Zinc",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 109,
+    "text": "The color of [Cu(H2O)6]²⁺ is:",
+    "options": [
+      "Blue",
+      "Green",
+      "Red",
+      "Colorless"
+    ],
+    "correct_answer": "Blue",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 110,
+    "text": "Crystal Field Theory explains:",
+    "options": [
+      "Color and magnetism of complexes",
+      "Bond angles",
+      "Molecular geometry",
+      "Bond length"
+    ],
+    "correct_answer": "Color and magnetism of complexes",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 111,
+    "text": "A paramagnetic complex has:",
+    "options": [
+      "Unpaired electrons",
+      "All paired electrons",
+      "No d-electrons",
+      "Charge"
+    ],
+    "correct_answer": "Unpaired electrons",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 112,
+    "text": "Fill in: The number of d-electrons in Fe³⁺ is _____.",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "3"
+    ],
+    "correct_answer": "5",
+    "question_type": "fib",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 113,
+    "text": "T/F: High-spin octahedral complexes have more unpaired electrons than low-spin.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 114,
+    "text": "Which ligand is a strong field ligand?",
+    "options": [
+      "CN⁻",
+      "I⁻",
+      "Br⁻",
+      "Cl⁻"
+    ],
+    "correct_answer": "CN⁻",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 115,
+    "text": "The coordination number of [Fe(H2O)6]³⁺ is:",
+    "options": [
+      "6",
+      "4",
+      "2",
+      "8"
+    ],
+    "correct_answer": "6",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 116,
+    "text": "T/F: Transition metals form colored compounds due to d-d transitions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 117,
+    "text": "The oxidation state of Cr in K2Cr2O7 is:",
+    "options": [
+      "+6",
+      "+3",
+      "+7",
+      "+5"
+    ],
+    "correct_answer": "+6",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 118,
+    "text": "Which is an example of a chelating agent?",
+    "options": [
+      "EDTA",
+      "Cl⁻",
+      "H2O",
+      "NH3"
+    ],
+    "correct_answer": "EDTA",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 119,
+    "text": "T/F: The crystal field splitting energy (Δo) increases across a period.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 120,
+    "text": "Which metal forms a blue precipitate with NaOH that dissolves in excess?",
+    "options": [
+      "Cu²⁺",
+      "Fe³⁺",
+      "Zn²⁺",
+      "Al³⁺"
+    ],
+    "correct_answer": "Cu²⁺",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 121,
+    "text": "In the Victor Meyer test, a blood-red colour indicates:",
+    "options": [
+      "Primary alcohol",
+      "Secondary alcohol",
+      "Tertiary alcohol",
+      "Phenol"
+    ],
+    "correct_answer": "Primary alcohol",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 3
+  },
+  {
+    "id": 122,
+    "text": "Ease of dehydration of alcohols follows the order:",
+    "options": [
+      "3 > 2 > 1",
+      "1 > 2 > 3",
+      "2 > 3 > 1",
+      "All equal"
+    ],
+    "correct_answer": "3 > 2 > 1",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 123,
+    "text": "Best reagent to convert an alcohol to alkyl chloride WITHOUT rearrangement:",
+    "options": [
+      "SOCl2 / pyridine",
+      "Conc. HCl, heat",
+      "PCl5, heat",
+      "Cl2 / hv"
+    ],
+    "correct_answer": "SOCl2 / pyridine",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 3
+  },
+  {
+    "id": 124,
+    "text": "Glycerol heated with KHSO4 gives (acrolein test):",
+    "options": [
+      "Acrolein (acrid smell)",
+      "Allyl alcohol",
+      "Glyceraldehyde",
+      "No reaction"
+    ],
+    "correct_answer": "Acrolein (acrid smell)",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 125,
+    "text": "Methanol reacts with CO under pressure (carbonylation) to give:",
+    "options": [
+      "Acetic acid",
+      "Ethanol",
+      "Formaldehyde",
+      "Methyl formate"
+    ],
+    "correct_answer": "Acetic acid",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 126,
+    "text": "Rectified spirit is:",
+    "options": [
+      "95.6% ethanol + 4.4% water (azeotrope)",
+      "100% ethanol",
+      "Ethanol + methanol",
+      "Ethanol + petrol"
+    ],
+    "correct_answer": "95.6% ethanol + 4.4% water (azeotrope)",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 127,
+    "text": "Alcoholic fermentation of glucose (zymase) gives:",
+    "options": [
+      "2 ethanol + 2 CO2",
+      "2 lactic acid",
+      "Ethanol + water",
+      "Methanol + CO2"
+    ],
+    "correct_answer": "2 ethanol + 2 CO2",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 128,
+    "text": "Which is the WEAKEST acid?",
+    "options": [
+      "tert-Butanol",
+      "Phenol",
+      "Water",
+      "Acetic acid"
+    ],
+    "correct_answer": "tert-Butanol",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 129,
+    "text": "1-Propanol oxidised with PCC (pyridinium chlorochromate) gives:",
+    "options": [
+      "Propanal (stops at aldehyde)",
+      "Propanoic acid",
+      "Propanone",
+      "Propene"
+    ],
+    "correct_answer": "Propanal (stops at aldehyde)",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 130,
+    "text": "Major product of 1-butanol dehydration with conc. H2SO4 at 170C:",
+    "options": [
+      "2-Butene (Saytzeff)",
+      "1-Butene only",
+      "Dibutyl ether",
+      "Butanal"
+    ],
+    "correct_answer": "2-Butene (Saytzeff)",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 2
+  },
+  {
+    "id": 131,
+    "text": "T/F: Alcohols boil higher than alkanes of similar mass because of intermolecular H-bonding.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 132,
+    "text": "Power alcohol is a mixture of:",
+    "options": [
+      "Ethanol + petrol",
+      "Methanol + water",
+      "Ethanol + diesel only",
+      "Propanol + kerosene"
+    ],
+    "correct_answer": "Ethanol + petrol",
+    "question_type": "mc",
+    "topic": "Alcohol",
+    "difficulty": 1
+  },
+  {
+    "id": 133,
+    "text": "For a first-order reaction with k = 0.0693 min-1, the half-life is:",
+    "options": [
+      "10 min",
+      "69.3 min",
+      "1 min",
+      "0.693 min"
+    ],
+    "correct_answer": "10 min",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 134,
+    "text": "Units of the rate constant for a FIRST-order reaction:",
+    "options": [
+      "time-1 (e.g. s-1)",
+      "M s-1",
+      "M-1 s-1",
+      "Unitless"
+    ],
+    "correct_answer": "time-1 (e.g. s-1)",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 135,
+    "text": "Rate = k[A]^2[B]. If [A] is doubled and [B] tripled, the rate increases by:",
+    "options": [
+      "12 times",
+      "5 times",
+      "6 times",
+      "8 times"
+    ],
+    "correct_answer": "12 times",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 3
+  },
+  {
+    "id": 136,
+    "text": "T/F: Molecularity is always a whole number and never zero.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 137,
+    "text": "A catalyst does NOT change:",
+    "options": [
+      "Equilibrium constant",
+      "Activation energy",
+      "Reaction rate",
+      "Mechanism path"
+    ],
+    "correct_answer": "Equilibrium constant",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 138,
+    "text": "Fill in: Threshold energy = Activation energy + _____ energy of reactants.",
+    "options": [
+      "Average",
+      "Maximum",
+      "Zero-point",
+      "Kinetic"
+    ],
+    "correct_answer": "Average",
+    "question_type": "fib",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 139,
+    "text": "Half-life of a ZERO-order reaction equals:",
+    "options": [
+      "[A]0 / 2k",
+      "0.693 / k",
+      "1 / (k[A]0)",
+      "[A]0 / k"
+    ],
+    "correct_answer": "[A]0 / 2k",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 3
+  },
+  {
+    "id": 140,
+    "text": "A rate constant with units M-1 s-1 indicates order:",
+    "options": [
+      "Second order",
+      "First order",
+      "Zero order",
+      "Third order"
+    ],
+    "correct_answer": "Second order",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 141,
+    "text": "T/F: The order of a reaction can be fractional (e.g. H2 + Br2 chain reaction).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 142,
+    "text": "The temperature coefficient of most reactions (rate rise per 10K) is about:",
+    "options": [
+      "2 to 3",
+      "10",
+      "1 (no change)",
+      "100"
+    ],
+    "correct_answer": "2 to 3",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 1
+  },
+  {
+    "id": 143,
+    "text": "Threshold energy minus average reactant energy equals:",
+    "options": [
+      "Activation energy",
+      "Enthalpy",
+      "Free energy",
+      "Rate constant"
+    ],
+    "correct_answer": "Activation energy",
+    "question_type": "mc",
+    "topic": "Chemical Kinetics",
+    "difficulty": 2
+  },
+  {
+    "id": 144,
+    "text": "Zn-Cu Daniell cell: E(Zn2+/Zn) = -0.76 V, E(Cu2+/Cu) = +0.34 V. E(cell) =",
+    "options": [
+      "1.10 V",
+      "0.42 V",
+      "-1.10 V",
+      "0.76 V"
+    ],
+    "correct_answer": "1.10 V",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 145,
+    "text": "Fill in: At 298 K, log K = nE / _____.",
+    "options": [
+      "0.0591",
+      "0.0257",
+      "2.303",
+      "96500"
+    ],
+    "correct_answer": "0.0591",
+    "question_type": "fib",
+    "topic": "Electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 146,
+    "text": "On dilution, the MOLAR conductivity of an electrolyte:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays constant",
+      "Becomes zero"
+    ],
+    "correct_answer": "Increases",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 147,
+    "text": "Kohlrausch law states limiting molar conductivity equals:",
+    "options": [
+      "Sum of individual ion contributions",
+      "Conductivity at 1 M",
+      "Zero at infinite dilution",
+      "Product of ion mobilities"
+    ],
+    "correct_answer": "Sum of individual ion contributions",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 148,
+    "text": "Electrolysis of aqueous NaCl (brine) gives at cathode and anode:",
+    "options": [
+      "H2 and Cl2",
+      "Na and Cl2",
+      "Na and O2",
+      "H2 and O2"
+    ],
+    "correct_answer": "H2 and Cl2",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 149,
+    "text": "The electrolyte in a lead storage battery is:",
+    "options": [
+      "Dilute H2SO4",
+      "NaOH solution",
+      "Solid PbO2",
+      "Ammonium chloride paste"
+    ],
+    "correct_answer": "Dilute H2SO4",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 150,
+    "text": "Galvanization protects iron using a coating of:",
+    "options": [
+      "Zinc (sacrificial)",
+      "Copper",
+      "Tin only",
+      "Paint only"
+    ],
+    "correct_answer": "Zinc (sacrificial)",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 151,
+    "text": "Fill in: One Faraday equals _____ coulombs.",
+    "options": [
+      "96500",
+      "1.6e-19",
+      "6.02e23",
+      "3600"
+    ],
+    "correct_answer": "96500",
+    "question_type": "fib",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 152,
+    "text": "T/F: In a galvanic cell, electrons flow from anode to cathode through the external circuit.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Electrochemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 153,
+    "text": "Fill in: Nernst equation at 298 K: E = E - (_____/n) log Q.",
+    "options": [
+      "0.0591",
+      "0.0257",
+      "1.10",
+      "8.314"
+    ],
+    "correct_answer": "0.0591",
+    "question_type": "fib",
+    "topic": "Electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 154,
+    "text": "If E(cell) is positive, then delta-G and K indicate:",
+    "options": [
+      "Spontaneous, K > 1",
+      "Non-spontaneous, K < 1",
+      "Equilibrium, K = 1",
+      "No relation"
+    ],
+    "correct_answer": "Spontaneous, K > 1",
+    "question_type": "mc",
+    "topic": "Electrochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 155,
+    "text": "Anisole (PhOCH3) cleaved with HI gives:",
+    "options": [
+      "Phenol + CH3I",
+      "Iodobenzene + methanol",
+      "Benzene + CH3I",
+      "No reaction"
+    ],
+    "correct_answer": "Phenol + CH3I",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 3
+  },
+  {
+    "id": 156,
+    "text": "(CH3)3C-O-CH3 + HI (1 equiv) gives mainly:",
+    "options": [
+      "(CH3)3C-I + CH3OH (SN1 at 3 carbon)",
+      "CH3I + (CH3)3COH",
+      "Two ethers",
+      "Alkene only"
+    ],
+    "correct_answer": "(CH3)3C-I + CH3OH (SN1 at 3 carbon)",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 3
+  },
+  {
+    "id": 157,
+    "text": "Ethanol with conc. H2SO4 gives ether at 140C but alkene at 170C because:",
+    "options": [
+      "Excess alcohol + lower T favours substitution over elimination",
+      "Acid strength changes",
+      "Ether is unstable at 170C only",
+      "Water is removed at 170C"
+    ],
+    "correct_answer": "Excess alcohol + lower T favours substitution over elimination",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 158,
+    "text": "T/F: Ethers act as Lewis bases and complex with Grignard reagents and BF3.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 159,
+    "text": "Dangerous peroxides in old ether bottles are detected with:",
+    "options": [
+      "KI solution (liberates I2)",
+      "Litmus paper",
+      "FeCl3",
+      "Tollens reagent"
+    ],
+    "correct_answer": "KI solution (liberates I2)",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 160,
+    "text": "Alkene + peracid (mCPBA) gives:",
+    "options": [
+      "Epoxide",
+      "Diol directly",
+      "Ketone",
+      "Ether (acyclic)"
+    ],
+    "correct_answer": "Epoxide",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 161,
+    "text": "Acid-catalysed epoxide opening: the nucleophile attacks the:",
+    "options": [
+      "MORE substituted carbon",
+      "LESS substituted carbon",
+      "Oxygen atom",
+      "Either equally"
+    ],
+    "correct_answer": "MORE substituted carbon",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 3
+  },
+  {
+    "id": 162,
+    "text": "Williamson synthesis fails with tertiary alkyl halides because:",
+    "options": [
+      "Elimination dominates over SN2",
+      "SN2 is faster",
+      "Ether is unstable",
+      "Alkoxide is too weak"
+    ],
+    "correct_answer": "Elimination dominates over SN2",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 163,
+    "text": "Diethyl ether + PCl5 gives:",
+    "options": [
+      "2 C2H5Cl",
+      "C2H5OH + C2H5Cl",
+      "CH3COCl",
+      "No reaction"
+    ],
+    "correct_answer": "2 C2H5Cl",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 164,
+    "text": "18-crown-6 selectively complexes which ion?",
+    "options": [
+      "K+",
+      "Li+",
+      "Mg2+",
+      "Al3+"
+    ],
+    "correct_answer": "K+",
+    "question_type": "mc",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 165,
+    "text": "T/F: Ethers accept H-bonds from water, so lower ethers are slightly soluble in water.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Ether",
+    "difficulty": 2
+  },
+  {
+    "id": 166,
+    "text": "Finkelstein reaction (R-Cl + NaI in acetone) gives:",
+    "options": [
+      "R-I (NaCl precipitates)",
+      "R-F",
+      "Alkene",
+      "Alcohol"
+    ],
+    "correct_answer": "R-I (NaCl precipitates)",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 167,
+    "text": "Swarts reaction converts alkyl halides to:",
+    "options": [
+      "Alkyl fluorides (AgF/Hg2F2)",
+      "Alkyl iodides",
+      "Alkenes",
+      "Nitriles"
+    ],
+    "correct_answer": "Alkyl fluorides (AgF/Hg2F2)",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 168,
+    "text": "Wurtz reaction (2RX + 2Na, dry ether) produces:",
+    "options": [
+      "R-R (higher alkane)",
+      "R-H only",
+      "Alkene",
+      "R-OH"
+    ],
+    "correct_answer": "R-R (higher alkane)",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 169,
+    "text": "HBr addition to propene (no peroxide, Markovnikov) gives:",
+    "options": [
+      "2-Bromopropane",
+      "1-Bromopropane",
+      "1,2-Dibromopropane",
+      "Propane"
+    ],
+    "correct_answer": "2-Bromopropane",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 170,
+    "text": "Peroxide (Kharasch) effect is shown by HBr but NOT HCl/HI because:",
+    "options": [
+      "H-Br bond breaks homolytically with useful energetics; H-Cl too strong, H-I gives reversible step",
+      "HCl is a gas",
+      "HI is too reactive",
+      "Peroxides destroy HCl"
+    ],
+    "correct_answer": "H-Br bond breaks homolytically with useful energetics; H-Cl too strong, H-I gives reversible step",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 3
+  },
+  {
+    "id": 171,
+    "text": "Dehydrohalogenation of 2-bromobutane (Saytzeff) gives mainly:",
+    "options": [
+      "2-Butene",
+      "1-Butene",
+      "Butane",
+      "Butyne"
+    ],
+    "correct_answer": "2-Butene",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 172,
+    "text": "Fastest substrate for SN1 among:",
+    "options": [
+      "Benzyl bromide",
+      "Ethyl bromide",
+      "Isopropyl bromide",
+      "Vinyl bromide"
+    ],
+    "correct_answer": "Benzyl bromide",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 173,
+    "text": "Chloroform is stored in dark bottles with a little ethanol because:",
+    "options": [
+      "It slowly forms poisonous phosgene (COCl2) in air/light",
+      "It evaporates fast",
+      "It reacts with glass",
+      "Ethanol increases bp"
+    ],
+    "correct_answer": "It slowly forms poisonous phosgene (COCl2) in air/light",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 174,
+    "text": "Which gives a positive iodoform test?",
+    "options": [
+      "Acetophenone",
+      "Benzophenone",
+      "Formaldehyde",
+      "Benzoic acid"
+    ],
+    "correct_answer": "Acetophenone",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 175,
+    "text": "R-X + KCN gives nitrile, but R-X + AgCN gives mainly:",
+    "options": [
+      "Isocyanide (R-NC)",
+      "Nitrile",
+      "Amine",
+      "Alkene"
+    ],
+    "correct_answer": "Isocyanide (R-NC)",
+    "question_type": "mc",
+    "topic": "Haloalkanes",
+    "difficulty": 3
+  },
+  {
+    "id": 176,
+    "text": "T/F: C-I is the weakest C-X bond, so alkyl iodides are the most reactive in SN reactions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Haloalkanes",
+    "difficulty": 2
+  },
+  {
+    "id": 177,
+    "text": "Dow process converts chlorobenzene to phenol using:",
+    "options": [
+      "Aq. NaOH, 623 K, 300 atm",
+      "Dilute NaOH at room temp",
+      "Na / dry ether",
+      "Cu powder, heat"
+    ],
+    "correct_answer": "Aq. NaOH, 623 K, 300 atm",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 178,
+    "text": "Sandmeyer reaction: ArN2+Cl- to ArCl uses:",
+    "options": [
+      "CuCl / HCl",
+      "Cu powder / HCl",
+      "KI solution",
+      "NaOH, heat"
+    ],
+    "correct_answer": "CuCl / HCl",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 179,
+    "text": "Wurtz-Fittig reaction (ArX + RX + Na) gives:",
+    "options": [
+      "Alkylbenzene (Ar-R)",
+      "Biphenyl only",
+      "Alkane only",
+      "Phenol"
+    ],
+    "correct_answer": "Alkylbenzene (Ar-R)",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 180,
+    "text": "Fittig reaction (2 ArX + 2 Na) gives:",
+    "options": [
+      "Biphenyl",
+      "Benzene",
+      "Toluene",
+      "Phenol"
+    ],
+    "correct_answer": "Biphenyl",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 181,
+    "text": "Ullmann reaction (ArI + Cu powder, heat) gives:",
+    "options": [
+      "Biphenyl",
+      "Benzene",
+      "Phenol",
+      "Aniline"
+    ],
+    "correct_answer": "Biphenyl",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 182,
+    "text": "Gattermann chloro-arylation uses ___ instead of Sandmeyer's CuCl:",
+    "options": [
+      "Cu powder + HCl",
+      "CuBr + HBr",
+      "KI",
+      "NaNO2"
+    ],
+    "correct_answer": "Cu powder + HCl",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 183,
+    "text": "Direct iodination of benzene needs an oxidising agent (HNO3/HIO3) to:",
+    "options": [
+      "Remove HI and drive equilibrium forward",
+      "Dissolve iodine",
+      "Cool the mixture",
+      "Reduce benzene"
+    ],
+    "correct_answer": "Remove HI and drive equilibrium forward",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 184,
+    "text": "T/F: For SNAr reactions the rate order is ArF > ArCl > ArBr > ArI.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 185,
+    "text": "Chlorobenzene + NaNH2 (sodamide) generates the reactive intermediate:",
+    "options": [
+      "Benzyne",
+      "Phenyl cation",
+      "Phenyl radical",
+      "Phenoxide"
+    ],
+    "correct_answer": "Benzyne",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 3
+  },
+  {
+    "id": 186,
+    "text": "Chlorobenzene + Cl2 / FeCl3 (electrophilic substitution) gives:",
+    "options": [
+      "o- and p-dichlorobenzene",
+      "m-dichlorobenzene",
+      "Hexachlorobenzene",
+      "No reaction"
+    ],
+    "correct_answer": "o- and p-dichlorobenzene",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 187,
+    "text": "Phenylmagnesium bromide is best prepared from:",
+    "options": [
+      "Bromobenzene + Mg in dry ether/THF",
+      "Chlorobenzene + aq. NaOH",
+      "Iodobenzene + water",
+      "Fluorobenzene + Mg in water"
+    ],
+    "correct_answer": "Bromobenzene + Mg in dry ether/THF",
+    "question_type": "mc",
+    "topic": "HaloArenes",
+    "difficulty": 2
+  },
+  {
+    "id": 188,
+    "text": "Radioactivity was discovered in 1896 by ___ using uranium salts.",
+    "options": [
+      "Henri Becquerel",
+      "Marie Curie",
+      "Rutherford",
+      "J.J. Thomson"
+    ],
+    "correct_answer": "Henri Becquerel",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 189,
+    "text": "Marie Curie won her 1911 Nobel Prize in:",
+    "options": [
+      "Chemistry (radium, polonium)",
+      "Physics",
+      "Medicine",
+      "Peace"
+    ],
+    "correct_answer": "Chemistry (radium, polonium)",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 190,
+    "text": "Which radiation has the STRONGEST ionising power?",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "X-rays"
+    ],
+    "correct_answer": "Alpha",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 191,
+    "text": "Fill in: 1 Curie = _____ disintegrations per second.",
+    "options": [
+      "3.7e10",
+      "1e6",
+      "1",
+      "3.7e6"
+    ],
+    "correct_answer": "3.7e10",
+    "question_type": "fib",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 192,
+    "text": "Carbon-14 undergoes beta decay to:",
+    "options": [
+      "Nitrogen-14",
+      "Carbon-13",
+      "Oxygen-16",
+      "Boron-14"
+    ],
+    "correct_answer": "Nitrogen-14",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 193,
+    "text": "Al-27 bombarded with a neutron gives Na-24 plus:",
+    "options": [
+      "An alpha particle",
+      "A beta particle",
+      "A gamma ray",
+      "Two neutrons"
+    ],
+    "correct_answer": "An alpha particle",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 3
+  },
+  {
+    "id": 194,
+    "text": "In the U-235 fission (Sr-95 + Xe-139), neutrons released per fission:",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "correct_answer": "2",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 195,
+    "text": "The Sun's energy comes from fusion of:",
+    "options": [
+      "Deuterium + Tritium to Helium",
+      "Uranium fission",
+      "Carbon combustion",
+      "Hydrogen to carbon"
+    ],
+    "correct_answer": "Deuterium + Tritium to Helium",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 196,
+    "text": "Controlled fission is used in ___, uncontrolled in ___.",
+    "options": [
+      "Power plants / atomic bombs",
+      "Bombs / power plants",
+      "Sun / reactors",
+      "Labs / hospitals"
+    ],
+    "correct_answer": "Power plants / atomic bombs",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 197,
+    "text": "Fill in: Half-life of Carbon-14 is _____ years.",
+    "options": [
+      "5730",
+      "1600",
+      "4.5e9",
+      "87"
+    ],
+    "correct_answer": "5730",
+    "question_type": "fib",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 1
+  },
+  {
+    "id": 198,
+    "text": "'Fat Man' (Nagasaki, 1945) was dropped on:",
+    "options": [
+      "Nagasaki",
+      "Hiroshima",
+      "Tokyo",
+      "Osaka"
+    ],
+    "correct_answer": "Nagasaki",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 199,
+    "text": "Most widely used medical imaging isotope (6 h half-life, gamma emitter):",
+    "options": [
+      "Technetium-99m",
+      "Uranium-235",
+      "Carbon-14",
+      "Thorium-232"
+    ],
+    "correct_answer": "Technetium-99m",
+    "question_type": "mc",
+    "topic": "Nuclear Chemistry",
+    "difficulty": 2
+  },
+  {
+    "id": 200,
+    "text": "Phenol + NaHCO3 gives:",
+    "options": [
+      "No CO2 (weaker acid than carbonic acid)",
+      "Brisk CO2 like carboxylic acids",
+      "Sodium carbonate",
+      "Benzene"
+    ],
+    "correct_answer": "No CO2 (weaker acid than carbonic acid)",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 201,
+    "text": "Cumene-hydroperoxide process co-produces phenol and:",
+    "options": [
+      "Acetone",
+      "Ethanol",
+      "Benzene",
+      "Methanol"
+    ],
+    "correct_answer": "Acetone",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 202,
+    "text": "Aspirin is made by acetylating:",
+    "options": [
+      "Salicylic acid",
+      "Benzoic acid",
+      "Phenol directly",
+      "Aniline"
+    ],
+    "correct_answer": "Salicylic acid",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 203,
+    "text": "Phenol distilled with Zn dust gives:",
+    "options": [
+      "Benzene",
+      "Toluene",
+      "Cyclohexane",
+      "Aniline"
+    ],
+    "correct_answer": "Benzene",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 204,
+    "text": "o-Nitrophenol is steam-volatile while p-nitrophenol is not because:",
+    "options": [
+      "Intramolecular H-bonding in ortho vs intermolecular in para",
+      "Ortho is heavier",
+      "Para is a gas",
+      "Ortho has no H-bonding"
+    ],
+    "correct_answer": "Intramolecular H-bonding in ortho vs intermolecular in para",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 3
+  },
+  {
+    "id": 205,
+    "text": "Strongest acid among:",
+    "options": [
+      "p-Nitrophenol",
+      "Phenol",
+      "p-Cresol",
+      "p-Methoxyphenol"
+    ],
+    "correct_answer": "p-Nitrophenol",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 206,
+    "text": "Phenol + CCl4 / NaOH (Reimer-Tiemann variant) gives:",
+    "options": [
+      "Salicylic acid",
+      "Benzaldehyde",
+      "Catechol",
+      "Picric acid"
+    ],
+    "correct_answer": "Salicylic acid",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 3
+  },
+  {
+    "id": 207,
+    "text": "Bakelite is made from phenol and:",
+    "options": [
+      "Formaldehyde",
+      "Acetaldehyde",
+      "Acetone",
+      "Ethanol"
+    ],
+    "correct_answer": "Formaldehyde",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 1
+  },
+  {
+    "id": 208,
+    "text": "Anisole is prepared from phenol via:",
+    "options": [
+      "NaOH then CH3I (Williamson)",
+      "CH3OH, heat only",
+      "CH3Cl / FeCl3",
+      "H2 / Pt"
+    ],
+    "correct_answer": "NaOH then CH3I (Williamson)",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 209,
+    "text": "T/F: Phenol turns blue litmus red.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Phenol",
+    "difficulty": 1
+  },
+  {
+    "id": 210,
+    "text": "Phenol couples with benzenediazonium chloride (cold, alkaline) to give:",
+    "options": [
+      "Orange azo dye",
+      "Colourless solution",
+      "Nitrogen gas only",
+      "Chlorobenzene"
+    ],
+    "correct_answer": "Orange azo dye",
+    "question_type": "mc",
+    "topic": "Phenol",
+    "difficulty": 2
+  },
+  {
+    "id": 211,
+    "text": "Highest oxidation state shown by transition metals (RuO4, OsO4):",
+    "options": [
+      "+8",
+      "+7",
+      "+6",
+      "+5"
+    ],
+    "correct_answer": "+8",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 212,
+    "text": "KMnO4 in ACIDIC medium reduces to:",
+    "options": [
+      "Mn2+ (5-electron change)",
+      "MnO2",
+      "MnO4 2-",
+      "Mn metal"
+    ],
+    "correct_answer": "Mn2+ (5-electron change)",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 213,
+    "text": "Orange dichromate in alkali turns yellow due to:",
+    "options": [
+      "Conversion to chromate (CrO4 2-)",
+      "Reduction to Cr3+",
+      "Oxidation to Cr(VII)",
+      "Precipitation"
+    ],
+    "correct_answer": "Conversion to chromate (CrO4 2-)",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 214,
+    "text": "Spin-only moment for 3 unpaired electrons is about:",
+    "options": [
+      "3.87 BM",
+      "1.73 BM",
+      "5.92 BM",
+      "2.83 BM"
+    ],
+    "correct_answer": "3.87 BM",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 3
+  },
+  {
+    "id": 215,
+    "text": "Weakest-field ligand in the spectrochemical series:",
+    "options": [
+      "I-",
+      "NH3",
+      "CN-",
+      "CO"
+    ],
+    "correct_answer": "I-",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  },
+  {
+    "id": 216,
+    "text": "Lanthanide contraction is caused by:",
+    "options": [
+      "Poor shielding by 4f electrons",
+      "Strong shielding by 4f",
+      "Relativistic 6s expansion",
+      "d-orbital shielding"
+    ],
+    "correct_answer": "Poor shielding by 4f electrons",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 3
+  },
+  {
+    "id": 217,
+    "text": "Most abundant transition metal in Earth's crust:",
+    "options": [
+      "Iron",
+      "Copper",
+      "Zinc",
+      "Titanium"
+    ],
+    "correct_answer": "Iron",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 218,
+    "text": "Chromium in stainless steel prevents rust by forming:",
+    "options": [
+      "Passive oxide layer",
+      "Amalgam",
+      "Coloured coating",
+      "Magnetic shield"
+    ],
+    "correct_answer": "Passive oxide layer",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 219,
+    "text": "White pigment TiO2 is an oxide of:",
+    "options": [
+      "Titanium",
+      "Tin",
+      "Zinc",
+      "Lead"
+    ],
+    "correct_answer": "Titanium",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 220,
+    "text": "T/F: Zn2+ salts are colourless and diamagnetic (d10).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_answer": "True",
+    "question_type": "tf",
+    "topic": "Transition Metal",
+    "difficulty": 1
+  },
+  {
+    "id": 221,
+    "text": "Catalyst in the Contact process (H2SO4 manufacture):",
+    "options": [
+      "V2O5",
+      "Fe",
+      "Ni",
+      "Pt gauze"
+    ],
+    "correct_answer": "V2O5",
+    "question_type": "mc",
+    "topic": "Transition Metal",
+    "difficulty": 2
+  }
+]

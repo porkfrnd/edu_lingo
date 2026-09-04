@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 style="margin-bottom:1rem;">Review your answers</h2>
+<form method="GET" action="{{ url_for('review') }}" style="display:flex; gap:0.5rem; margin-bottom:1rem; flex-wrap:wrap;">
+  <select name="topic" onchange="this.form.submit()" style="padding:0.5rem; border-radius:8px;">
+    <option value="">All topics</option>
+    {% for t in topics %}
+    <option value="{{ t }}" {% if t == topic_filter %}selected{% endif %}>{{ t }}</option>
+    {% endfor %}
+  </select>
+  <select name="status" onchange="this.form.submit()" style="padding:0.5rem; border-radius:8px;">
+    <option value="">All answers</option>
+    <option value="correct" {% if status_filter == 'correct' %}selected{% endif %}>Correct only</option>
+    <option value="wrong" {% if status_filter == 'wrong' %}selected{% endif %}>Wrong only</option>
+  </select>
+  {% if topic_filter or status_filter %}
+  <a href="{{ url_for('review') }}" class="btn btn-blue" style="padding:0.5rem 1rem;">Clear</a>
+  {% endif %}
+</form>
+{% if not items %}
+<div class="card"><p>No attempts yet. <a href="{{ url_for('quiz_start') }}">Start a quiz!</a></p></div>
+{% endif %}
+{% for progress, question, options in items %}
+<div class="card">
+  <strong>{{ question.topic if question else progress.topic }}</strong>
+  <span class="badge" style="background:{{ '#58CC02' if progress.answered_correctly else '#FF4B4B' }};">
+    {{ '✅ Correct' if progress.answered_correctly else '❌ Wrong' }}
+  </span>
+  <p style="margin-top:0.5rem;">{{ question.text if question else '(question removed)' }}</p>
+  {% if question %}
+  <p style="color:#666; font-size:0.9rem;">Correct answer: <strong>{{ question.correct_answer }}</strong></p>
+  {% endif %}
+</div>
+{% endfor %}
+{% endblock %}

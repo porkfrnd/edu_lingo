@@ -1,0 +1,22 @@
+# Python venv (local, recreated via requirements.txt)
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+__pycache__/
+*.pyc
+*.pyo
+
+# App runtime artifacts (regenerated)
+data/quiz.db
+data/extracted/
+data/documents.json
+instance/
+
+# Swarm agent internals
+.swarm/
+
+# Secrets / local env
+.env
+*.db-journal
