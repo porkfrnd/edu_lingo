@@ -4,9 +4,9 @@ A Flask web app that turns your chemistry notes (PDF / TXT / MD / DOCX) into a
 Duolingo-style quiz game: XP, streaks, levels, topic mastery, timed questions,
 instant feedback, confetti perfect-rounds, and a review screen.
 
-**221 exam-ready questions** ship built-in across 9 topics: Alcohols, Chemical
-Kinetics, Electrochemistry, Ethers, Haloalkanes, HaloArenes, Nuclear Chemistry,
-Phenols, Transition Metals.
+**410 exam-ready questions with explanations** ship built-in: 353 chemistry across 9 topics
+(Alcohols, Chemical Kinetics, Electrochemistry, Ethers, Haloalkanes, HaloArenes,
+Nuclear Chemistry, Phenols, Transition Metals) plus 30 physics and 27 math.
 
 ## Quick start
 
@@ -17,8 +17,8 @@ python app.py
 # open http://127.0.0.1:5000  ->  /health for a health check
 ```
 
-Register a username, hit **Start Mixed Quiz** (or tap a topic card to drill it),
-answer 10 questions, and watch XP / streak / mastery update.
+Hit **Start Mixed Quiz** (or tap a topic card to drill it) — no login needed.
+Every answer shows an explanation, and option order is shuffled on every attempt.
 
 ## Study notes + OCR pipeline
 
@@ -68,7 +68,7 @@ models.py              # SQLAlchemy: User, Question, Document, UserProgress
 document_processor.py  # per-page text extraction + OCR + caching
 question_generator.py  # curated bank + chunk-based generation helpers
 utils.py               # topic maps, question-bank JSON IO
-data/questions.json    # 221-question seed bank (auto-loaded into SQLite)
+data/questions.json    # 300-question bank, one JSON object per line (auto-loaded into SQLite)
 data/extra_a.json      # curated extension bank, part 1
 data/extra_b.json      # curated extension bank, part 2
 data/quiz.db           # SQLite DB (created on first run)
