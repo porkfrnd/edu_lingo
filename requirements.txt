@@ -1,12 +1,7 @@
-# Web + DB + auth
 Flask==3.1.1
 Flask-SQLAlchemy==3.1.1
-Flask-Login==0.6.3
-# Document processing (OCR pipeline activates when all present)
 PyMuPDF>=1.24.0
 pytesseract>=0.3.10
 Pillow>=10.0.0
 pypdf>=5.0.0
 python-docx>=1.1.0
-# System dependency for scanned-image PDFs (install separately):
-#   sudo apt install tesseract-ocr

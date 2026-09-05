@@ -6,7 +6,6 @@
 {% if perfect %}<h3 style="color:var(--green);">🎉 Perfect Round!</h3>
 <div class="confetti" id="confetti"></div>{% else %}<p>Keep practicing!</p>{% endif %}
 <a href="{{ url_for('quiz_start') }}" class="btn btn-green">Play Again</a>
-<a href="{{ url_for('dashboard') }}" class="btn btn-blue">Dashboard</a>
 </div>
 {% endblock %}
 {% block scripts %}

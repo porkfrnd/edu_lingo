@@ -2,14 +2,12 @@
 {% block content %}
 <div class="fade-up">
 <div class="card">
-<h2>Welcome, {{ current_user.username }}!</h2>
-<p>Level {{ current_user.level }} • ⭐ {{ current_user.total_xp }} XP • 🔥 {{ current_user.streak_days or 0 }} day streak</p>
-<p>Answered: {{ total_answered }} • Correct: {{ total_correct }} • Accuracy: {{ accuracy }}%</p>
-<p>Daily goal: {{ answered_today }}/{{ daily_goal }} questions</p>
-<div class="progress-bar" style="margin:0.5rem 0;"><div class="progress-fill" style="width:{{ (100.0 * answered_today / daily_goal) | round(1) }}%;"></div></div>
+<h2>ChemQuest — Practice Mode</h2>
+<p>No login required — just start playing!</p>
+<div style="margin:1rem 0;">
 <button class="btn btn-green" onclick="location.href='{{ url_for('quiz_start') }}'">Start Mixed Quiz ⚗️</button>
 </div>
-<h3 style="margin:1rem 0;">Topics - tap a card to drill it</h3>
+<h3 style="margin:1rem 0;">Topics</h3>
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
 {% for topic, pct in mastery.items() %}
 <div class="card" style="cursor:pointer;" onclick="location.href='{{ url_for('quiz_start') }}?topic={{ topic | urlencode }}'">
@@ -18,6 +16,7 @@
 <div class="mastery-bar" style="margin-top:0.25rem;"><div class="mastery-fill" style="width:{{ pct }}%;"></div></div>
 </div>
 {% endfor %}
+</div>
 </div>
 </div>
 {% endblock %}

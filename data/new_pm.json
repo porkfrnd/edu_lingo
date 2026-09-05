@@ -1,0 +1,546 @@
+[
+ {
+  "topic": "Mechanics",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "A 2 kg mass accelerates at 3 m/s^2. Net force?",
+  "options": [
+   "6 N",
+   "5 N",
+   "1.5 N",
+   "9 N"
+  ],
+  "correct_answer": "6 N",
+  "subject": "physics",
+  "explanation": "F = ma = 2 x 3 = 6 N."
+ },
+ {
+  "topic": "Mechanics",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Kinetic energy of 2 kg moving at 3 m/s?",
+  "options": [
+   "9 J",
+   "6 J",
+   "12 J",
+   "18 J"
+  ],
+  "correct_answer": "9 J",
+  "subject": "physics",
+  "explanation": "KE = 1/2 m v^2 = 0.5 x 2 x 9 = 9 J."
+ },
+ {
+  "topic": "Mechanics",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: Action and reaction forces act on different bodies.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — that is why they never cancel each other."
+ },
+ {
+  "topic": "Mechanics",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Projectile range is maximum at launch angle:",
+  "options": [
+   "45 degrees",
+   "30 degrees",
+   "60 degrees",
+   "90 degrees"
+  ],
+  "correct_answer": "45 degrees",
+  "subject": "physics",
+  "explanation": "R = v^2 sin2(theta)/g peaks when sin2(theta) = 1, i.e. 45 degrees."
+ },
+ {
+  "topic": "Mechanics",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: In vacuum, a hammer and feather fall together.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — Apollo 15 showed Galileo right: no air, no difference."
+ },
+ {
+  "topic": "Thermodynamics",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Absolute zero equals:",
+  "options": [
+   "-273.15 C",
+   "0 C",
+   "-100 C",
+   "273.15 C"
+  ],
+  "correct_answer": "-273.15 C",
+  "subject": "physics",
+  "explanation": "0 K = -273.15 C, where molecular motion is minimal."
+ },
+ {
+  "topic": "Thermodynamics",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: Heat flows spontaneously from hot to cold.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — the second law's everyday face."
+ },
+ {
+  "topic": "Thermodynamics",
+  "question_type": "mc",
+  "difficulty": 2,
+  "text": "In an isothermal expansion of an ideal gas, delta-U is:",
+  "options": [
+   "0",
+   "Positive",
+   "Negative",
+   "Infinite"
+  ],
+  "correct_answer": "0",
+  "subject": "physics",
+  "explanation": "Internal energy depends only on T; T constant means delta-U = 0."
+ },
+ {
+  "topic": "Waves",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "A wave with f = 5 Hz and wavelength 2 m has speed:",
+  "options": [
+   "10 m/s",
+   "2.5 m/s",
+   "7 m/s",
+   "25 m/s"
+  ],
+  "correct_answer": "10 m/s",
+  "subject": "physics",
+  "explanation": "v = f times lambda = 5 x 2 = 10 m/s."
+ },
+ {
+  "topic": "Waves",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: Light travels through empty space.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — electromagnetic waves need no medium."
+ },
+ {
+  "topic": "Waves",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "A plane mirror forms an image that is:",
+  "options": [
+   "Virtual and same-sized",
+   "Real and enlarged",
+   "Virtual and halved",
+   "Real and inverted"
+  ],
+  "correct_answer": "Virtual and same-sized",
+  "subject": "physics",
+  "explanation": "Plane mirrors give upright, virtual, same-size images."
+ },
+ {
+  "topic": "Waves",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: Blue light has higher frequency than red light.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — frequency rises toward the blue/violet end."
+ },
+ {
+  "topic": "Electromagnetism",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "A current of 2 A through 5 ohm needs voltage:",
+  "options": [
+   "10 V",
+   "2.5 V",
+   "7 V",
+   "25 V"
+  ],
+  "correct_answer": "10 V",
+  "subject": "physics",
+  "explanation": "V = IR = 2 x 5 = 10 V."
+ },
+ {
+  "topic": "Electromagnetism",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: Like charges repel each other.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — Coulomb's law gives repulsion for same signs."
+ },
+ {
+  "topic": "Electromagnetism",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "In a series circuit, which quantity is the same everywhere?",
+  "options": [
+   "Current",
+   "Voltage",
+   "Resistance",
+   "Power"
+  ],
+  "correct_answer": "Current",
+  "subject": "physics",
+  "explanation": "One path means one current; voltage divides across resistors."
+ },
+ {
+  "topic": "Electromagnetism",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "SI unit of magnetic field strength:",
+  "options": [
+   "Tesla",
+   "Weber",
+   "Farad",
+   "Henry"
+  ],
+  "correct_answer": "Tesla",
+  "subject": "physics",
+  "explanation": "Tesla (T); weber is magnetic flux."
+ },
+ {
+  "topic": "Modern Physics",
+  "question_type": "mc",
+  "difficulty": 2,
+  "text": "Photon energy depends on:",
+  "options": [
+   "Frequency (E = h-nu)",
+   "Amplitude",
+   "Wave speed in glass",
+   "Source size"
+  ],
+  "correct_answer": "Frequency (E = h-nu)",
+  "subject": "physics",
+  "explanation": "E = h-nu — bluer photons carry more energy."
+ },
+ {
+  "topic": "Modern Physics",
+  "question_type": "tf",
+  "difficulty": 2,
+  "text": "T/F: Electrons can diffract like waves.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — Davisson-Germer confirmed de Broglie for electrons."
+ },
+ {
+  "topic": "Modern Physics",
+  "question_type": "mc",
+  "difficulty": 2,
+  "text": "The mass defect of a nucleus appears as:",
+  "options": [
+   "Binding energy",
+   "Extra neutrons",
+   "Gamma background",
+   "Lost charge"
+  ],
+  "correct_answer": "Binding energy",
+  "subject": "physics",
+  "explanation": "Delta-m times c^2 binds the nucleus — the mass defect."
+ },
+ {
+  "topic": "Modern Physics",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: Nothing carrying information exceeds light speed in vacuum.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "physics",
+  "explanation": "True — special relativity's speed limit."
+ },
+ {
+  "topic": "Algebra",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "2x + 3 = 11. x = ?",
+  "options": [
+   "4",
+   "3",
+   "5",
+   "7"
+  ],
+  "correct_answer": "4",
+  "subject": "math",
+  "explanation": "2x = 8, so x = 4."
+ },
+ {
+  "topic": "Algebra",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "(a + b)^2 equals:",
+  "options": [
+   "a^2 + 2ab + b^2",
+   "a^2 + b^2",
+   "a^2 - 2ab + b^2",
+   "2a + 2b"
+  ],
+  "correct_answer": "a^2 + 2ab + b^2",
+  "subject": "math",
+  "explanation": "Square term by term: a^2 + ab + ab + b^2."
+ },
+ {
+  "topic": "Algebra",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: sqrt(2) is irrational.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "math",
+  "explanation": "True — proved by infinite descent (Euclid)."
+ },
+ {
+  "topic": "Algebra",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Roots of x^2 - 5x + 6 = 0:",
+  "options": [
+   "2 and 3",
+   "1 and 6",
+   "-2 and -3",
+   "5 and 6"
+  ],
+  "correct_answer": "2 and 3",
+  "subject": "math",
+  "explanation": "(x-2)(x-3) = 0."
+ },
+ {
+  "topic": "Algebra",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "log10(100) = ?",
+  "options": [
+   "2",
+   "10",
+   "1",
+   "100"
+  ],
+  "correct_answer": "2",
+  "subject": "math",
+  "explanation": "10^2 = 100."
+ },
+ {
+  "topic": "Calculus",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Integral of 2x dx =",
+  "options": [
+   "x^2 + C",
+   "2x^2 + C",
+   "x + C",
+   "2 + C"
+  ],
+  "correct_answer": "x^2 + C",
+  "subject": "math",
+  "explanation": "Power rule reversed: x^2 differentiates to 2x."
+ },
+ {
+  "topic": "Calculus",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "d/dx (sin x) =",
+  "options": [
+   "cos x",
+   "-sin x",
+   "-cos x",
+   "tan x"
+  ],
+  "correct_answer": "cos x",
+  "subject": "math",
+  "explanation": "Standard derivative."
+ },
+ {
+  "topic": "Calculus",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: The derivative of any constant is zero.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "math",
+  "explanation": "True — constants have zero slope."
+ },
+ {
+  "topic": "Calculus",
+  "question_type": "mc",
+  "difficulty": 2,
+  "text": "At a local maximum, the second derivative is:",
+  "options": [
+   "Negative",
+   "Positive",
+   "Always zero",
+   "Undefined"
+  ],
+  "correct_answer": "Negative",
+  "subject": "math",
+  "explanation": "Concave-down shape marks a maximum."
+ },
+ {
+  "topic": "Calculus",
+  "question_type": "mc",
+  "difficulty": 2,
+  "text": "Integral from 0 to 1 of x dx =",
+  "options": [
+   "1/2",
+   "1",
+   "0",
+   "2"
+  ],
+  "correct_answer": "1/2",
+  "subject": "math",
+  "explanation": "Area of the unit triangle: half of 1x1."
+ },
+ {
+  "topic": "Geometry",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Hypotenuse of a 3-4 right triangle:",
+  "options": [
+   "5",
+   "7",
+   "6",
+   "4"
+  ],
+  "correct_answer": "5",
+  "subject": "math",
+  "explanation": "sqrt(9+16) = 5."
+ },
+ {
+  "topic": "Geometry",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "Area of a triangle is:",
+  "options": [
+   "1/2 x base x height",
+   "base x height",
+   "2 x base x height",
+   "base + height"
+  ],
+  "correct_answer": "1/2 x base x height",
+  "subject": "math",
+  "explanation": "Half the enclosing rectangle."
+ },
+ {
+  "topic": "Geometry",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: A circle has infinitely many lines of symmetry.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "math",
+  "explanation": "True — every diameter is a symmetry axis."
+ },
+ {
+  "topic": "Trigonometry",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "sin 30 degrees =",
+  "options": [
+   "1/2",
+   "sqrt(3)/2",
+   "1",
+   "0"
+  ],
+  "correct_answer": "1/2",
+  "subject": "math",
+  "explanation": "Standard special angle."
+ },
+ {
+  "topic": "Trigonometry",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "tan 45 degrees =",
+  "options": [
+   "1",
+   "0",
+   "sqrt(3)",
+   "Undefined"
+  ],
+  "correct_answer": "1",
+  "subject": "math",
+  "explanation": "Opposite equals adjacent at 45 degrees."
+ },
+ {
+  "topic": "Trigonometry",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: sin^2(theta) + cos^2(theta) = 1 for all theta.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "math",
+  "explanation": "True — the Pythagorean identity."
+ },
+ {
+  "topic": "Probability",
+  "question_type": "mc",
+  "difficulty": 1,
+  "text": "P(rolling a 6 on a fair die) =",
+  "options": [
+   "1/6",
+   "1/2",
+   "1/3",
+   "1"
+  ],
+  "correct_answer": "1/6",
+  "subject": "math",
+  "explanation": "One favourable face out of six."
+ },
+ {
+  "topic": "Statistics",
+  "question_type": "tf",
+  "difficulty": 1,
+  "text": "T/F: The median resists outliers better than the mean.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct_answer": "True",
+  "subject": "math",
+  "explanation": "True — extremes skew the mean but rarely move the middle value."
+ }
+]

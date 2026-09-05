@@ -2,17 +2,9 @@
 {% block content %}
 <div class="card fade-up" style="max-width:400px; margin: 2rem auto;">
 <h2 style="text-align:center; margin-bottom:1rem;">Welcome to ChemQuest</h2>
-<form method="POST" action="{{ url_for('register') }}">
-<div style="margin-bottom:1rem;"><label>Username</label><input type="text" name="username" required></div>
-<div style="margin-bottom:1rem;"><label>Password</label><input type="password" name="password" required></div>
-<button class="btn btn-green" style="width:100%;">Register</button>
-</form>
-<hr style="margin:1.5rem 0;">
-<form method="POST" action="{{ url_for('login') }}">
-<h3 style="margin-bottom:0.5rem;">Login</h3>
-<div style="margin-bottom:1rem;"><input type="text" name="username" placeholder="Username" required></div>
-<div style="margin-bottom:1rem;"><input type="password" name="password" placeholder="Password" required></div>
-<button class="btn btn-blue" style="width:100%;">Login</button>
-</form>
+<p style="text-align:center;">Start a quiz below — no login required!</p>
+<div style="text-align:center; margin-top:1rem;">
+<a href="{{ url_for('quiz_start') }}" class="btn btn-green">Start Mixed Quiz ⚗️</a>
+</div>
 </div>
 {% endblock %}

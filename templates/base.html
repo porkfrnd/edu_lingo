@@ -11,10 +11,9 @@
 body { font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg); color: #333; }
 header { background: var(--green); color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
 header h1 { font-size: 1.5rem; font-weight: 800; }
-nav a { color: white; margin-left: 1rem; text-decoration: none; font-weight: 600; }
 .container { max-width: 768px; margin: 0 auto; padding: 1rem; }
 .card { background: white; border-radius: 16px; padding: 1.5rem; margin: 1rem 0; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
-.btn { display: inline-block; padding: 0.75rem 2rem; border-radius: 999px; border: none; font-size: 1rem; font-weight: 700; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+.btn { display: inline-block; padding: 0.75rem 2rem; border-radius: 999px; border: none; font-size: 1rem; font-weight: 700; cursor: transition: 0.2s; transition: transform 0.2s, box-shadow 0.2s; }
 .btn:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
 .btn-green { background: var(--green); color: white; }
 .btn-red { background: var(--red); color: white; }
@@ -36,25 +35,11 @@ input[type="text"]:focus, input[type="password"]:focus { border-color: var(--gre
 @keyframes confetti { 0% { transform: translateY(0) rotate(0); opacity: 1; } 100% { transform: translateY(-200px) rotate(360deg); opacity: 0; } }
 .confetti { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 999; }
 .confetti-piece { position: absolute; width: 10px; height: 10px; background: var(--green); border-radius: 2px; animation: confetti 1s ease-out forwards; }
-.stat { display: inline-block; margin: 0 0.5rem; }
-.badge { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 999px; background: var(--yellow); color: white; font-weight: 700; font-size: 0.9rem; }
-.mastery-bar { height: 12px; background: #e5e5e5; border-radius: 6px; overflow: hidden; }
-.mastery-fill { height: 100%; background: var(--green); border-radius: 6px; transition: width 0.5s; }
-.flash { padding: 1rem; background: #ffe0e0; color: var(--red); border-radius: 12px; margin: 1rem 0; }
 </style>
 </head>
 <body>
 <header>
 <h1>⚗️ ChemQuest</h1>
-<nav>
-{% if current_user.is_authenticated %}
-<a href="{{ url_for('dashboard') }}">Dashboard</a>
-<a href="{{ url_for('review') }}">Review</a>
-<a href="{{ url_for('logout') }}">Logout</a>
-{% else %}
-<a href="{{ url_for('index') }}">Login</a>
-{% endif %}
-</nav>
 </header>
 <div class="container">
 {% with messages = get_flashed_messages() %}

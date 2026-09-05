@@ -1,0 +1,62 @@
+{
+ "275": {
+  "text": "The Dow process runs aqueous NaOH at:",
+  "options": [
+   "623 K",
+   "373 K",
+   "473 K",
+   "298 K"
+  ],
+  "correct_answer": "623 K",
+  "question_type": "mc",
+  "topic": "HaloArenes",
+  "difficulty": 2,
+  "subject": "chemistry",
+  "explanation": "Only about 623 K and 300 atm force hydrolysis of aryl C-Cl."
+ },
+ "276": {
+  "text": "An alpha particle is symbolised as:",
+  "options": [
+   "4-2-He",
+   "0--1-e",
+   "1-0-n",
+   "gamma"
+  ],
+  "correct_answer": "4-2-He",
+  "question_type": "mc",
+  "topic": "Nuclear Chemistry",
+  "difficulty": 1,
+  "subject": "chemistry",
+  "explanation": "Alpha = helium nucleus: mass 4, charge +2."
+ },
+ "280": {
+  "text": "Zn2+ has how many d-electrons?",
+  "options": [
+   "10",
+   "5",
+   "8",
+   "0"
+  ],
+  "correct_answer": "10",
+  "question_type": "mc",
+  "topic": "Transition Metal",
+  "difficulty": 1,
+  "subject": "chemistry",
+  "explanation": "Zn is [Ar]3d10 4s2; losing the 4s pair leaves d10."
+ },
+ "281": {
+  "text": "MnO4- + 8H+ + ___ e- -> Mn2+ + 4H2O (acidic medium). Electrons gained:",
+  "options": [
+   "5",
+   "3",
+   "1",
+   "2"
+  ],
+  "correct_answer": "5",
+  "question_type": "mc",
+  "topic": "Transition Metal",
+  "difficulty": 2,
+  "subject": "chemistry",
+  "explanation": "Manganese drops from +7 to +2 — a gain of 5 electrons."
+ }
+}

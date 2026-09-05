@@ -1,109 +1,45 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="fade-up">
-  <div style="display:flex; justify-content:space-between; margin-bottom:0.5rem; font-weight:700;">
-    <span>{{ topic }} • Q{{ index }}/{{ total }}</span>
-    <span>⭐ {{ score }} • 🔥 {{ streak }}</span>
-  </div>
-  <div class="progress-bar"><div class="progress-fill" style="width:{{ (100.0 * index / total) | round(1) }}%;"></div></div>
-  <div style="display:flex; justify-content:space-between; align-items:center; margin-top:0.5rem;">
-    <span class="badge">{{ question.question_type | upper }}</span>
-    <span id="timer" style="font-weight:800;">⏱ 30</span>
-  </div>
-  <div class="card" id="qcard" style="margin-top:0.75rem;">
-    <h3 style="margin-bottom:1rem;">{{ question.text }}</h3>
-    <div id="options"></div>
-    <div id="feedback" style="margin-top:1rem; font-weight:700;"></div>
-    <button id="nextBtn" class="btn btn-green" style="display:none; margin-top:1rem; width:100%;" onclick="goNext()">Continue →</button>
-  </div>
+<div style="display:flex; justify-content:space-between; margin-bottom:1rem;">
+<span>Question {{ index }} of {{ total }}</span>
+<span>Score: {{ score }}</span>
+</div>
+<div class="progress-bar"><div class="progress-fill" style="width:{{ (index/total)*100 }}%;"></div></div>
+<div class="card fade-up" style="margin-top:1rem;">
+<h3>{{ question.text }}</h3>
+<div id="options">
+{% for opt in options %}
+<button class="option-btn" onclick="answer(this, '{{ opt }}')">{{ opt }}</button>
+{% endfor %}
+</div>
+<div id="feedback" style="margin-top:1rem; font-weight:600;"></div>
+</div>
 </div>
 {% endblock %}
 {% block scripts %}
 <script>
-const OPTIONS = {{ options | tojson }};
-const QID = {{ question.id }};
-const TIME_LIMIT = 30;
 let answered = false;
-let timeLeft = TIME_LIMIT;
-let timerId = null;
-
-function renderOptions() {
-  const box = document.getElementById('options');
-  box.innerHTML = '';
-  OPTIONS.forEach((opt, i) => {
-    const b = document.createElement('button');
-    b.className = 'option-btn';
-    b.textContent = opt;
-    b.onclick = () => answer(b, opt);
-    box.appendChild(b);
-  });
-}
-
-function startTimer() {
-  const el = document.getElementById('timer');
-  timerId = setInterval(() => {
-    timeLeft -= 1;
-    el.textContent = '⏱ ' + timeLeft;
-    if (timeLeft <= 0) {
-      clearInterval(timerId);
-      if (!answered) timeoutSubmit();
-    }
-  }, 1000);
-}
-
-function timeoutSubmit() {
-  answered = true;
-  document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
-  // Submit a blank answer so the question counts as wrong and we advance.
-  submitAnswer('__timeout__');
-}
-
 function answer(btn, val) {
   if (answered) return;
   answered = true;
-  clearInterval(timerId);
-  document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
-  submitAnswer(val, btn);
-}
-
-function submitAnswer(val, btn) {
-  fetch('/quiz/submit', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({question_id: QID, answer: val})
-  })
-  .then(r => r.json())
-  .then(data => {
-    if (data.error) { alert(data.error); return; }
-    const fb = document.getElementById('feedback');
-    document.querySelectorAll('.option-btn').forEach(b => {
-      if (b.textContent === data.answer) b.classList.add('correct');
+  fetch('/quiz/submit', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({question_id:{{ question.id }}, answer:val})})
+    .then(r => r.json())
+    .then(data => {
+      if (data.already_answered) return;
+      const btns = document.querySelectorAll('.option-btn');
+      btns.forEach(b => { if (b.innerText === data.answer) b.classList.add('correct'); });
+      if (data.correct) { btn.classList.add('correct', 'bounce'); } else { btn.classList.add('wrong', 'shake'); }
+      const fb = document.getElementById('feedback');
+      fb.textContent = (data.correct ? 'Correct! ' : 'Not quite. ') + (data.explanation || '');
+      fb.style.color = data.correct ? 'var(--green)' : 'var(--red)';
+      setTimeout(() => {
+        fetch('/quiz/next').then(r => r.json()).then(d => {
+          if (d.complete) location.href = '/quiz/complete';
+          else location.href = '/quiz';
+        });
+      }, 4500);
     });
-    if (data.correct) {
-      fb.innerHTML = '✅ Correct! +' + 10 + ' XP';
-      fb.style.color = 'var(--green)';
-      if (btn) btn.classList.add('bounce');
-      document.getElementById('qcard').classList.add('bounce');
-    } else {
-      fb.innerHTML = val === '__timeout__'
-        ? '⏰ Time up! Correct answer highlighted above.'
-        : '❌ Not quite. Correct answer highlighted above.';
-      fb.style.color = 'var(--red)';
-      if (btn) btn.classList.add('wrong', 'shake');
-      else document.getElementById('qcard').classList.add('shake');
-    }
-    window.__finished = data.finished;
-    document.getElementById('nextBtn').style.display = 'block';
-  })
-  .catch(() => alert('Submit failed - check connection and retry.'));
 }
-
-function goNext() {
-  if (window.__finished) location.href = '/quiz/complete';
-  else location.href = '/quiz';
-}
-
-renderOptions();
-startTimer();
 </script>
 {% endblock %}

@@ -25,7 +25,7 @@ def generate_seed_questions():
             {"q": "The reaction of ethanol with sodium produces:", "opts": ["Ethanol sodium", "Sodium ethoxide + H2", "Ethyl sodium", "No reaction"], "ans": "Sodium ethoxide + H2", "type": "mc", "diff": 1},
             {"q": "Fill in the blank: The dehydration of alcohols follows _____ rule for Zaitsev product.", "opts": ["Zaitsev", "Markovnikov", "Hückel", "Saytzeff"], "ans": "Zaitsev", "type": "fib", "diff": 2},
             {"q": "T/F: Allylic and benzylic alcohols oxidize easily because the intermediate carbocation is resonance-stabilized.", "opts": ["True", "False"], "ans": "True", "type": "tf", "diff": 2},
-            {"q": "Which alcohol gives a positive iodoform test?", "opts": ["1-propanol", "2-butanol", "2-methyl-2-propanol", "2-propanol"], "ans": "2-propanol", "type": "mc", "diff": 2},
+            {"q": "Which alcohol gives a positive iodoform test?", "opts": ["2-Propanol", "1-Propanol", "Methanol", "tert-Butanol"], "ans": "2-Propanol", "type": "mc", "diff": 2},
             {"q": "The Lucas test distinguishes alcohols based on:", "opts": ["Rate of formation of alkyl chloride", "Color change", "Gas evolution", "pH change"], "ans": "Rate of formation of alkyl chloride", "type": "mc", "diff": 2},
             {"q": "What product forms when ethylene glycol reacts with excess acetic anhydride?", "opts": ["Diacetate ester", "Ethanol", "Ethylene oxide", "Acetic acid"], "ans": "Diacetate ester", "type": "mc", "diff": 2},
             {"q": "Ethanol on oxidation with acidified K2Cr2O7 gives:", "opts": ["Ethanal then ethanoic acid", "Ethanol stays", "Ethyl acetate", "Ethane"], "ans": "Ethanal then ethanoic acid", "type": "mc", "diff": 1},
@@ -150,7 +150,7 @@ def generate_seed_questions():
             {"q": "The oxidation state of Cr in K2Cr2O7 is:", "opts": ["+6", "+3", "+7", "+5"], "ans": "+6", "type": "mc", "diff": 2},
             {"q": "Which is an example of a chelating agent?", "opts": ["EDTA", "Cl⁻", "H2O", "NH3"], "ans": "EDTA", "type": "mc", "diff": 2},
             {"q": "T/F: The crystal field splitting energy (Δo) increases across a period.", "opts": ["True", "False"], "ans": "True", "type": "tf", "diff": 2},
-            {"q": "Which metal forms a blue precipitate with NaOH that dissolves in excess?", "opts": ["Cu²⁺", "Fe³⁺", "Zn²⁺", "Al³⁺"], "ans": "Cu²⁺", "type": "mc", "diff": 2},
+            {"q": "Which ion gives a white precipitate with NaOH that redissolves in excess NaOH?", "opts": ["Zn2+", "Cu2+", "Fe3+", "Ba2+"], "ans": "Zn2+", "type": "mc", "diff": 2},
         ]
     }
     for topic_name, questions in topics.items():
@@ -162,8 +162,17 @@ def generate_seed_questions():
                 "question_type": question["type"],
                 "topic": topic_name,
                 "difficulty": question["diff"],
+                "explanation": "",
                 "id": len(q) + 1
             })
+    try:
+        from utils import load_questions as _load_bank
+        _exp = {b.get("text"): b.get("explanation", "") for b in _load_bank()}
+        for _item in q:
+            if not _item.get("explanation") and _exp.get(_item["text"]):
+                _item["explanation"] = _exp[_item["text"]]
+    except Exception:
+        pass
     return q
 
 def get_topic_distribution(total=100):
