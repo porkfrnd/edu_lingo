@@ -15,20 +15,45 @@ def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
 def load_questions():
+    """Load questions from data/questions.json.
+
+    Supports two layouts (auto-detected):
+      * JSONL — one question object per line (preferred;
+        lines of file == number of questions)
+      * a single JSON array (legacy)
+    """
     path = os.path.join('data', 'questions.json')
     if not os.path.exists(path):
         return []
     try:
         with open(path, encoding='utf-8') as f:
-            return json.load(f)
+            content = f.read()
+        if not content.strip():
+            return []
+        try:
+            data = json.loads(content)
+            if isinstance(data, list):
+                return data
+            if isinstance(data, dict):
+                return [data]
+        except json.JSONDecodeError:
+            pass  # fall through to line-by-line parsing
+        questions = []
+        for line in content.splitlines():
+            line = line.strip()
+            if line:
+                questions.append(json.loads(line))
+        return questions
     except Exception as e:
         logger.error(f"Failed to load questions: {e}")
         return []
 
 def save_questions(questions):
+    """Save questions one object per line (lines of file == number of questions)."""
     path = os.path.join('data', 'questions.json')
     with open(path, 'w', encoding='utf-8') as f:
-        json.dump(questions, f, indent=2, ensure_ascii=False)
+        for q in questions:
+            f.write(json.dumps(q, ensure_ascii=False) + '\n')
 
 def get_topic_keywords():
     return {
@@ -57,3 +82,13 @@ def topic_for_question(question_text, correct_answer):
             best_count = count
             best_topic = topic
     return best_topic if best_count > 0 else 'General'
+
+def get_options(question):
+    """Return options as a list, tolerating legacy double-encoded JSON strings."""
+    opts = question.options
+    if isinstance(opts, str):
+        try:
+            opts = json.loads(opts)
+        except (ValueError, TypeError):
+            return []
+    return opts if isinstance(opts, list) else []

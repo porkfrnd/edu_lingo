@@ -2,14 +2,13 @@ import json, os, random
 from utils import topic_for_question
 
 def load_seed_questions():
-    path = os.path.join('data', 'questions.json')
-    if os.path.exists(path):
-        try:
-            with open(path, encoding='utf-8') as f:
-                questions = json.load(f)
-            if len(questions) > 50:
-                return questions
-        except: pass
+    try:
+        from utils import load_questions
+        questions = load_questions()
+    except Exception:
+        questions = []
+    if len(questions) > 50:
+        return questions
     return generate_seed_questions()
 
 def generate_seed_questions():
